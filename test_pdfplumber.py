@@ -8,4 +8,4 @@ def extract_text_from_pdf(pdf_path):
             print(f"Page {page_num + 1}:\n{text}\n{'-'*40}")
 
 # Test the function with a sample PDF
-extract_text_from_pdf("beispiel.pdf")
+extract_text_from_pdf("/srv/dev-disk-by-uuid-1662b18d-6525-436b-9831-0d970568c184/data/999_Abrechnungen/Fondsabrechnung (4).pdf")
