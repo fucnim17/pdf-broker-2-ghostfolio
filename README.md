@@ -27,7 +27,7 @@ You will get your access token as a response like this:
 Store this token somewhere, you will need it later on. For additional information visit [Ghostfolio](https://github.com/ghostfolio/ghostfolio) and scroll down.
 
 ## ⚙️ Configuration
-Before running the script, **create a `.env` file** in the project root directory and configure the required settings:
+Before running the script, **create a `.env` file** in the project root directory:
 ```bash
 nano .env
 ```
