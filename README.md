@@ -1,7 +1,7 @@
 # PDF Broker Statements to Ghostfolio
 
 This repository automates the extraction of transaction data from PDF broker statements and imports them directly into [Ghostfolio](https://ghostfol.io/).
-Currently, a parser for [Sunrise](https://www.sunrise.app/) is implemented, and additional parsers (e.g., for [flatex.at](https://www.flatex.at/)) will be added in the future.
+Currently, a parser for [Sunrise](https://www.sunrise.app/) is implemented, and additional parsers (e.g., for [Flatex.at](https://www.flatex.at/)) will be added in the future.
 
 ## 🛠️ Installation
 Clone the repository and set up a virtual environment:
@@ -45,13 +45,17 @@ ACCOUNT_ID=your_ghostfolio_account_id
 
 ## ▶️ Running the Script
 To manually run the script:
-
-`python parser/sunrise_parser.py`
+```bash
+python parser/sunrise_parser.py
+```
 
 After successful import, the processed PDF will be deleted automatically.
 
 ## ⏹️ Deactivating the Virtual Environment
-To exit the virtual environment, run: `deactivate`
+To exit the virtual environment, run: 
+```bash
+deactivate
+```
 
 ## 🚀 Planned Features
 - **Support for multiple brokers:** More parsers will be added for different statement formats.
