@@ -24,7 +24,7 @@ curl -X POST http://localhost:3333/api/v1/auth/anonymous \
 You will get your access token as a response like this:
 `"accessToken": "eyJh..." `
 
-Store this token somewhere, you will need it later on. For additional information visit [Ghostfolio](https://ghostfol.io/) and scroll down.
+Store this token somewhere, you will need it later on. For additional information visit [Ghostfolio](https://github.com/ghostfolio/ghostfolio) and scroll down.
 
 ## ⚙️ Configuration
 Before running the script, configure the following settings in `parser/sunrise_parser.py`:
