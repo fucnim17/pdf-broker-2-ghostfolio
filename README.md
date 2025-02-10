@@ -22,18 +22,26 @@ curl -X POST http://localhost:3333/api/v1/auth/anonymous \
 ```
 
 You will get your access token as a response like this:
-`"accessToken": "eyJh..." `
+`"authToken"": "eyJh..." `
 
 Store this token somewhere, you will need it later on. For additional information visit [Ghostfolio](https://github.com/ghostfolio/ghostfolio) and scroll down.
 
 ## ⚙️ Configuration
-Before running the script, configure the following settings in `parser/sunrise_parser.py`:
+Before running the script, **create a `.env` file** in the project root directory and configure the required settings:
+```bash
+nano .env
+```
+Then, add the following content (adjust the values to your setup):
+```
+# 📂 Directory where PDFs are stored
+PDF_DIRECTORY=/path/to/your/pdf_folder/
+PDF_FILENAME=pdf_name.pdf
 
-1. `PDF_DIRECTORY` is the folder where broker statements are stored
-2. `PDF_FILE` is the name of your broker statement
-3. `GHOSTFOLIO_HOST` is your Ghostfolio instance
-4. `API_TOKEN` is your Bearer Token
-5. `ACCOUNT_ID` is your ID from one of your Ghostfolio accounts 
+# 🌐 Ghostfolio API Settings
+GHOSTFOLIO_HOST=http://localhost:3333
+GHOSTFOLIO_API_TOKEN=eyJh...
+ACCOUNT_ID=your_ghostfolio_account_id
+```
 
 ## ▶️ Running the Script
 To manually run the script:
