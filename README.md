@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## 🔑 Getting a Ghostfolio Access Token
-To import transactions, you need an Bearer Token from Ghostfolio. In order to get one, past the following text in your console (at <INSERT_SECURITY_TOKEN_OF_ACCOUNT>, you have to insert your Security From your GHostfolio Account):
+To import transactions, you need a Bearer Token from Ghostfolio. To get one, paste the following text into your console, replacing `<INSERT_SECURITY_TOKEN_OF_ACCOUNT>` with the security token from your Ghostfolio account:
 ```bash
 curl -X POST http://localhost:3333/api/v1/auth/anonymous \
      -H "Content-Type: application/json" \
@@ -35,7 +35,7 @@ For additional information visit [Ghostfolio](https://ghostfol.io/) and scroll d
 ## ⚙️ Configuration
 Before running the script, configure the following settings in `parser/sunrise_parser.py`:
 
-     1. PDF dawd
+1. Folder where broker statements are stored `PDF_DIRECTORY`
 
 
 
