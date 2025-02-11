@@ -60,6 +60,7 @@ deactivate
 ## 🚀 Planned Features
 - **Support for multiple brokers:** More parsers will be added for different statement formats.
 - **Automated file monitoring:** The script will run continuously, waiting for new PDFs to process.
+- **Capital gains tax:** Add the option to import capital gains tax as a fee.
 - **Improved error handling:** Enhancements for handling edge cases and failed imports.
 
 ## 📝 License
