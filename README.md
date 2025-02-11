@@ -39,7 +39,7 @@ PDF_FILENAME=pdf_name.pdf
 
 # 🌐 Ghostfolio API Settings
 GHOSTFOLIO_HOST=http://localhost:3333
-GHOSTFOLIO_API_TOKEN=eyJh...
+API_TOKEN=eyJh...
 ACCOUNT_ID=your_ghostfolio_account_id
 ```
 
